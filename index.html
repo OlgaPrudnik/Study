@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>CV</title>
+</head>
+<body>
+  <div class="container gradient">
+    <div class="two-columns">
+      <div class="left-part">
+        <header>
+          <img src="./images/avatar1.jpg" alt="avatar" width="250" height="280">
+          <h1>Olga Prudnik</h1>
+          <h2>Junior Frontend Developer</h2>
+        </header>
+        <main>
+          <section class="contacts">
+            <h3>Contacts</h3>
+            <ul>
+              <li>
+                <img src="./images/email.svg" alt="email" width="25" height="25">
+                <p>olga.prudnik92@gmail.com</p>
+              </li>
+              <li>
+                <img src="./images/phone.svg" alt="Phone" width="25" height="25">
+                <p>+375(29) 693-17-99</p>
+              </li>
+              <li>
+                <img src="./images/telegram.svg" alt="telegram" width="25" height="25">
+                <p>Olga_Prudnik</p>
+              </li>
+              <li>
+                <img src="./images/linkedin.svg" alt="linkedIn" width="25" height="25">
+                <a href="https://www.linkedin.com/in/olga-prudnik-25145a217/">LinkedIn</a>
+              </li>
+            </ul>
+          </section>
+          <section class="scills">
+            <h3>Scills</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS/SCSS</li>
+              <li>JavaScript/TypeScript</li>
+              <li>React</li>
+              <li>Redux</li>
+              <li>Git</li>
+              <li>Bootstrap</li>
+            </ul>
+          </section>
+          <section class="languages">
+            <h3>Languages</h3>
+            <ul>
+              <li>Russian - native</li>
+              <li>English - B1 in progress</li>
+            </ul>
+          </section>
+        </main>
+      </div>
+      <aside class="right-part">
+        <section class="about-myself">
+          <div class="sub-header">
+            <img src="./images/person.svg" alt="myself icon" width="30" height="30">
+            <h3>About Myself</h3>
+          </div>
+          <p>Highly ambitious and extremely motivated Junior Frontend Developer is searching for a job position.</p>
+        </section>
+        <section class="education">
+          <div class="sub-header">
+            <img src="./images/education.svg" alt="education" width="30" height="30">
+            <h3>Education</h3>
+          </div>
+              <p><strong>"Mogilev State Musical college"</strong></p>
+              <p>Years: 2007-2011</p>
+              <p>Specialization:Teacher of music </p>
+              <p><strong>"Gomel State University named after F. Scorina"</strong></p>
+              <p>Years: 2011-2017</p>
+              <p>Specialization: Lawyer</p>
+
+        </section>
+        <section class="courses">
+          <div class="sub-header">
+            <img src="./images/university.svg" alt="courses" width="30" height="30">
+            <h3>Courses</h3>
+          </div>
+          <ul>
+              <li>"IT-School My freedom"</li>
+              <li>Java Script Manual learnjavascript.ru</li>
+              <li>RS Schools «JavaScript/Front-end. Stage 0»</li>
+          </ul>  
+        </section>
+        <section class="code-example">
+          <div class="sub-header">
+            <img src="./images/example.svg" alt="code example" width="30" height="30">
+            <h3>Code example</h3>
+          </div>
+          <p> Absent vowel KATA from Codewars:
+            Your job is to figure out the index of which vowel is missing from a given string:
+
+            A has an index of 0,
+            E has an index of 1,
+            I has an index of 2,
+            O has an index of 3,
+            U has an index of 4.
+            Notes: There is no need for string validation and every sentence given will contain all vowles but one. Also, you won't need to worry about capitals.</p>
+            <pre>
+              <code>
+                function absentVowel(x){
+                  let vowels = 'aeiou';
+                
+                  for (let i in vowels) {
+                    if (x.toLowerCase().indexOf(vowels[i]) == -1) {
+                      return Number(i);
+                    }
+                  }
+                }
+              </code>
+            </pre>
+          
+        </section>
+        <form action="#" id="form" novalidate>
+          <fieldset>
+            <label for="comment">Leave a short message:</label>
+           <textarea  id="comment" maxlength="140" rows="5" required  title="Комментарий"  placeholder="test.email@.ru"></textarea>
+           <div class="alert">Введите ссобщение</div>
+           <button type="button"  class="comment">Проверить</button>
+          </fieldset>
+          <fieldset>
+            <label for="phone">Your phone number:</label>
+            <input type="tel" name="phone" id="phone" placeholder="375YYXXXXXXX" required minlength="2" maxlength="12">
+            <div class="alert">Номер не верный!</div>
+            <button type="submit">Проверить</button>
+          </fieldset>
+        </form>
+      </aside>
+    </div>
+    <footer>
+      <a class="my-github" href="https://github.com/OlgaPrudnik">
+      <img class="github" src="./images/github.svg" alt="github-icon" width="35" height="35">
+      <p>Visit my GitHub</p>
+      </a>
+      
+      <a href="https://rs.school/js/">
+      <img src="./images/rsschool.svg" alt="rsschool-logo" width="55" height="50">
+      </a>
+      <p>© 2021</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
