@@ -1,5 +1,5 @@
 # Olga Prudnik
-#### Juniour Frontend Developer
+#### Trainee/Juniour Frontend Developer
 ---
 
 ## Contact me:
