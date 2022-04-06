@@ -266,5 +266,400 @@ width: 430px;
 }
 .first {
 padding-bottom: 25px;
+}
+.pets {
+position: relative;
+height: 877px;
+left: 0%;
+right: 0%;
+bottom: 0px;
+background: #F6F6F6;
+}
+.pets-content {
+position: absolute;
+width: 1200px;
+height: 697px;
+left: calc(50% - 1200px/2);
+top: 100px;
+}
+.heading-pets {
+position: absolute;
+width: 400px;
+height: 90px;
+left: 400px;
+top: 0px;
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #545454;
+}
+.slider {
+position: absolute;
+width: 1200px;
+height: 435px;
+left: 0px;
+top: 150px;
+display: flex;
+justify-content: space-between;
+}
+ .card {
+width: 270px;
+height: 435px;
+background: #FAFAFA;
+border-radius: 9px;
+}
+ .katrine {
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 37.93%;
+background: url(../../assets/images/pets-katrine.png);
+background-repeat: no-repeat;
+border-radius: 9px 9px 0px 0px;
 
 }
+.jennifer {
+position: absolute;
+left: 38.6%;
+right: 0%;
+top: 0%;
+bottom: 37.93%;
+background: url(../../assets/images/pets-jennifer.png);
+background-repeat: no-repeat;
+border-radius: 9px 9px 0px 0px;
+width: 270px;
+
+}
+.woody {
+position: absolute;
+left: 77.5%;
+right: 0%;
+top: 0%;
+bottom: 37.93%;
+background: url(../../assets/images/pets-woody.png);
+background-repeat: no-repeat;
+border-radius: 9px 9px 0px 0px;
+width: 270px;
+}
+.describe-katrine {
+position: absolute;
+width: 74px;
+height: 23px;
+left: 98px;
+top: 300px;
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #545454;
+}
+.describe-jennifer {
+    position: absolute;
+    width: 83px;
+    height: 23px;
+    left: 560px;
+    top: 300px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+.describe-woody {
+    position: absolute;
+    width: 68px;
+    height: 23px;
+    right: 101px;
+    top: 300px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+    
+}
+.learn-katrine {
+border: 2px solid #F1CDB3;
+border-radius: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px 45px;
+width: 187px;
+display: flex;
+flex-direction: row;
+align-items: center;
+position: absolute;
+height: 52px;
+left: 41.5px;
+top: 353px;
+background: #FAFAFA;
+
+}
+.learn-katrine a{
+position: static;
+left: 24.06%;
+right: 24.06%;
+top: 28.85%;
+bottom: 28.85%;
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 130%;
+letter-spacing: 0.06em;
+color: #292929;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+
+}
+.learn-jennifer{
+border: 2px solid #F1CDB3;
+border-radius: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px 45px;
+width: 187px;
+display: flex;
+flex-direction: row;
+align-items: center;
+position: absolute;
+height: 52px;
+left: 510.5px;
+top: 353px;
+background: #FAFAFA;
+    
+}
+.learn-jennifer a{
+position: static;
+left: 24.06%;
+right: 24.06%;
+top: 28.85%;
+bottom: 28.85%;    
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 130%;
+letter-spacing: 0.06em;    
+color: #292929;  
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+}
+.learn-woody {
+border: 2px solid #F1CDB3;
+border-radius: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px 45px;
+width: 187px;
+display: flex;
+flex-direction: row;
+align-items: center;
+position: absolute;
+height: 52px;
+right: 41.5px;
+top: 353px;
+background: #FAFAFA;
+        
+}
+.learn-woody a{
+position: static;
+left: 24.06%;
+right: 24.06%;
+top: 28.85%;
+bottom: 28.85%;
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 130%;
+letter-spacing: 0.06em;          
+color: #292929;       
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+        
+}
+.rest {
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+width: 261px;
+height: 52px;
+left: 470px;
+top: 645px;   
+background: #F1CDB3;
+border-radius: 100px;
+}
+.rest a {
+position: static;
+left: 17.24%;
+right: 17.24%;
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 130%;  
+color: #292929;  
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+margin: 10px 0px;   
+}
+.help {
+position: absolute;
+height: 611px;
+left: -0.39%;
+right: 0.39%;
+top: 990px;
+background: #FFFFFF;
+}
+.help-content {
+position: absolute;
+width: 1200px;
+height: 431px;
+left: calc(50% - 1200px/2);
+top:0px;
+}
+.heading-help {
+position: absolute;
+width: 308px;
+height: 90px;
+left: 446px;
+top: 0px;
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 130%;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #545454;
+    
+}
+.list {
+position: absolute;
+width: 1026px;
+height: 281px;
+left: 87px;
+top: 150px;
+}
+.pet-food {
+position: absolute;
+width: 82px;
+height: 113px;
+left: 10px;
+top: 0px;
+}
+.pet-food img {
+position: absolute;
+width: 60px;
+height: 60px;
+left: 11px;
+top: 0px;
+}
+.transportation {
+position: absolute;
+width: 150px;
+height: 113px;
+left: 202px;
+top: 0px;
+}
+.toys {
+position: absolute;
+width: 60px;
+height: 113px;
+left: 472px;
+top: 0px;
+}
+.bowls-and-cups {
+position: absolute;
+width: 153px;
+height: 113px;
+left: 652px;
+top: 0px;   
+}
+.shampoos {
+position: absolute;
+width: 101px;
+height: 113px;
+left: 925px;
+top: 0px;
+}
+.vitamins {
+position: absolute;
+width: 89px;
+height: 113px;
+left: 84px;
+top: 168px;
+}
+.medicines {
+position: absolute;
+width: 101px;
+height: 113px;
+left: 293px;
+top: 168px;
+}
+.collars {
+position: absolute;
+width: 165px;
+height: 113px;
+left: 514px;
+top: 168px;
+}
+.sleeping-area {
+position: absolute;
+width: 143px;
+height: 113px;
+left: 799px;
+top: 168px;  
+}
+/* .text {
+width: 165px;
+height: 23px;
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #545454;
+padding-top: 40px;
+} */
