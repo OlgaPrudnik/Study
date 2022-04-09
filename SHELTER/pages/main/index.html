@@ -12,17 +12,17 @@
     <div class="start-screen">
    <header class="header">
        <div class="container">
-       <div class="logo">
+       <div class="logo" id="logo">
            <h1>Cozy House</h1>
-           <p class="subtitle">Shelter for pets in Boston</p>
+           <a class="subtitle" href="#logo">Shelter for pets in Boston</a>
        </div>
        <!-- logo -->
        <nav class="menu">
            <ul>
-               <li><a href="#">About the shelter</a></li>
-               <li><a href="#">Our pets</a></li>
-               <li><a href="#">Help the shelter</a></li>
-               <li ><a class="last" href="#">Contacts</a></li>
+               <li><a class="choisen" href="#about">About the shelter</a></li>
+               <li><a href="#pets">Our pets</a></li>
+               <li><a href="#help">Help the shelter</a></li>
+               <li ><a class="last" href="#contacts">Contacts</a></li>
            </ul>
        </nav>
        </div>
@@ -35,7 +35,7 @@
             <p class="subheading-screen">We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</p>
         </div>
         <div class="primary">
-            <button>Make a friends</button>
+            <button><a href="#pets"> Make a friends</a></button>
         </div>
         <div class="start-screen-puppy"></div>
     </div>
@@ -45,7 +45,7 @@
 </div>
 </div>
     <div class="container">  
-<div class="about">
+<div class="about" id="about">
 <div class="about-content">
     <div class="about-pets"></div>
     <div class="content">
@@ -59,12 +59,14 @@
 </div>
 <!-- about -->
     </div>
-<div class="pets">
+<div class="pets" id="pets">
     <div class="container">
     <div class="pets-content">
         <h2 class="heading-pets">Our friends who
             are looking for a house</h2>
-            <div class="arrow-back"> </div>
+            <div class="arrow-back">
+                <button><img src="../../assets/images/button_arrow_back.png" alt="arrow back"> </button>
+                </div>
             <div class="slider">
             <div class="card">
                 <div class="katrine"></div>
@@ -85,12 +87,14 @@
             </div>
         </div>
         <!-- slider -->
-            <div class="arrow-forward"></div>
-            <button class="rest"><a href="#">Get to know the rest</a></button>
+            <div class="arrow-forward">   
+                <button><img src="../../assets/images/button_arrow.png" alt="arrow forward"> </button>
+            </div>
+            <button class="rest"><a href="#pets">Get to know the rest</a></button>
     </div>
 </div>
 <!-- pets -->
-<div class="help">
+<div class="help" id="help">
 <div class="help-content">
 <h2 class="heading-help">How you can help
     our shelter</h2>
@@ -137,7 +141,9 @@
 <!-- help-content -->
 </div>
 <!-- help -->
+</div>
 <div class="donation">
+    <div class="container">
 <div class="donation-content">
     <div class="donation-dog"></div>
 <div class="content-money">
@@ -145,8 +151,11 @@
     <p class="subheading-donation">Name of the bank / Type of bank account</p>
     <div class="credit-card">
         <img src="../../assets/images/credit-card.svg" alt="credit card icon">
-        <p class="credit-info">8380 2880 8028 8791 7435</p>
-        <p class="info">Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+        <a class="credit-info" href="#">8380 2880 8028 8791 7435</a>
+    </div>
+    <div class="info">
+        <p class="info-desc">Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+    </div>
     </div>
 </div>
 </div>
@@ -156,25 +165,27 @@
 </div>
 
 <!-- container -->
-   </main>
-    <footer>
+</main>
+
+    <footer class="footer gradient">
         <div class="container">
             <div class="footer-content">
-                <div class="contacts">
+                <div class="contacts" id="contacts">
                     <h2 class="title">For questions and suggestions</h2>
-                    <p class="mail">email@shelter.com</p>
-                    <p class="phone">+13 674 567 75 54</p>
+                    <a class="mail" href="https://mail.ru/" target="_blank">email@shelter.com</a>
+                    <a class="phone" href="tel:+136745677554">+13 674 567 75 54</a>
                 </div>
                 <div class="location">
-                    <h2 class="title">We are waiting for your visit</h2>
-                    <p class="boston">1 Central -, Boston (entrance from the store)</p>
-                    <p class="london">18 South Park, London </p>
+                    <h2 class="title-visit">We are waiting for your visit</h2>
+                    <a class="boston" href="https://www.google.com/maps" target="_blank">1 Central -, Boston (entrance from the store)</a>
+                    <a class="london" href="https://www.google.com/maps" target="_blank">18 South Park, London </a>
                 </div>
                 <div class="footer-puppy"></div>
             </div>
             <!-- footer-content -->
         </div>
         <!-- container -->
+
     </footer>
 
 
