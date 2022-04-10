@@ -142,6 +142,16 @@ color: #FAFAFA;
 padding-bottom: 10px;
 border-bottom: 3px solid #F1CDB3;
 }
+.menu a:hover {
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 160%;
+color: #FAFAFA;
+padding-bottom: 10px;
+border-bottom: 3px solid #F1CDB3;
+}
 .heading {
 width: 310px;
 height: 114px;
