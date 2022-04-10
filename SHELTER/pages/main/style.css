@@ -227,6 +227,16 @@ border-radius: 100px;
 cursor: pointer;
 
 }
+.primary button:hover {
+    background: rgb(247, 157, 209);
+    transform: scale(1.1);
+    border-radius: 30px;
+    border: 1px solid rgba(235, 145, 145, 0.911);
+    transform-origin: center;
+    transition-duration: 1s;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
 .primary a {
 font-family: 'Georgia';
 font-style: normal;
@@ -473,13 +483,14 @@ margin: 10px 0px;
 
 }
 .learn-katrine:hover {
-cursor: pointer;
-background-color: rgba(125, 214, 9, 0.541);
-border: 2px solid rgb(145, 255, 0);
-border-radius: 30px;
-transform-origin: center;
-transition-duration: 1s;
-transition: all 1s ease-in-out;
+    background: rgb(247, 157, 209);
+    transform: scale(1.1);
+    border-radius: 30px;
+    border: 1px solid rgba(235, 145, 145, 0.911);
+    transform-origin: center;
+    transition-duration: 1s;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
 }
 .learn-jennifer{
 border: 2px solid #F1CDB3;
@@ -518,13 +529,14 @@ flex-grow: 0;
 margin: 10px 0px;
 }
 .learn-jennifer:hover {
-cursor: pointer;
-background-color: rgba(125, 214, 9, 0.541);
-border: 2px solid rgb(145, 255, 0);
-border-radius: 30px;
-transform-origin: center;
-transition-duration: 1s;
-transition: all 1s ease-in-out;
+    background: rgb(247, 157, 209);
+    transform: scale(1.1);
+    border-radius: 30px;
+    border: 1px solid rgba(235, 145, 145, 0.911);
+    transform-origin: center;
+    transition-duration: 1s;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
 }
 .learn-woody {
 border: 2px solid #F1CDB3;
@@ -564,14 +576,14 @@ margin: 10px 0px;
         
 }
 .learn-woody:hover {
-cursor: pointer;
-background-color: rgba(125, 214, 9, 0.541);
-border: 2px solid rgb(145, 255, 0);
-transform: scale(1.1);
-border-radius: 30px;
-transform-origin: center;
-transition-duration: 1s;
-transition: all 1s ease-in-out;
+    background: rgb(247, 157, 209);
+    transform: scale(1.1);
+    border-radius: 30px;
+    border: 1px solid rgba(235, 145, 145, 0.911);
+    transform-origin: center;
+    transition-duration: 1s;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
 }
 .rest {
 display: flex;
