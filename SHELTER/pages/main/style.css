@@ -1,3 +1,31 @@
+@font-face {
+    font-family: 'Arial Italic';
+    src: url('../../assets/fonts/Arial/arial_bolditalicmt.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Arial Regular';
+    src: url('../../assets/fonts/Arial/arialmt.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Georgia Regular';
+    src: url('../../assets/fonts/Georgia/georgia.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Georgia Italic';
+    src: url('../../assets/fonts/Georgia/georgia_bolditalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
 * {
     margin: auto;
   }
