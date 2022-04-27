@@ -160,7 +160,7 @@ header {
     margin: 0 auto;
     height: 100%;
 }
-.hero {
+.not-only {
     background: linear-gradient(270deg, #242223, #473A30);
 }
 
@@ -190,7 +190,7 @@ header {
     font-size: 15px;
 
 }
-.hero-button {
+.only-button {
     display: inline-block;
     color: #292929;
     text-decoration: none;
@@ -207,7 +207,7 @@ header {
     transition: .3s;
     letter-spacing: 1px;
 }
-.hero-button:hover {
+.only-button:hover {
     background-color: #FDDCC4;
 }
 .only-image {
