@@ -1,6 +1,6 @@
 module.exports = {
     "env": {
-        "browser": true,
+        "bvaluesser": true,
         "es2021": true
     },
     "extends": [
