@@ -1,2 +1,4 @@
 - https://olgaprudnik.github.io/rsschool-cv/cv
 - https://olgaprudnik.github.io/rsschool-cv/SHELTER/pages/main/index.html
+- https://olgaprudnik.github.io/rsschool-cv/Virtual-keyboard/index.html
+- 
