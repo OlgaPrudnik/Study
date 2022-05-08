@@ -4,7 +4,7 @@ dayNightTheme = () => {
   
     if(hour >= 7 && hour < 19){
       document.body.style.backgroundColor = 'antiquewhite';
-      document.body.style.color = 'black';
+      document.body.style.color = 'gray';
     }
     else{
       document.body.style.backgroundColor = 'rgb(56, 29, 56)';
@@ -13,7 +13,7 @@ dayNightTheme = () => {
   }
   
   window.addEventListener('load', dayNightTheme);
-  
+
 let container = document.createElement("div");
 container.innerHTML = `<div class="container">
 <div class="wrapper">
@@ -64,6 +64,7 @@ container.innerHTML = `<div class="container">
             <div class="lines toggle" data-eng="L" data-ru="Д">L</div>
             <div class="lines toggle" data-eng=";" data-ru="Ж">;</div>
             <div class="lines toggle" data-eng='\"' data-ru="Э">\"</div>
+            <div class="lines toggle" data-eng="/" data-ru="/">/</div>
             <div class="lines enter">Enter</div>
         </div>
         <div class="values">
@@ -77,18 +78,22 @@ container.innerHTML = `<div class="container">
             <div class="lines toggle" data-eng="M" data-ru="Ь">M</div>
             <div class="lines toggle" data-eng="<" data-ru="Б"><</div>
             <div class="lines toggle" data-eng=">" data-ru="Ю">></div>
-            <div class="lines toggle" data-eng="/" data-ru="/">/</div>
             <div class="lines toggle" data-eng="?" data-ru=".">?</div>
             <div class="lines shift shiftRight">Shift</div>
+            <div class="lines arrows arrowUp">↑</div>
         </div>
         <div class="values">
             <div class="lines ctrl ctrlLeft">Ctrl</div>
+            <div class="lines">Fn</div>
             <div class="lines widows">Win</div>
             <div class="lines alt altLeft">Alt</div>
             <div class="lines space"></div>
             <div class="lines alt altRight">Alt</div>
-            <div class="lines">Fn</div>
+            <div class="lines alt altRight"></div>
             <div class="lines ctrl ctrlRight">Ctrl</div>
+            <div class="lines arrows arrowLeft">←</div>
+            <div class="lines arrows arrowDown">↓</div>
+            <div class="lines arrows arrowRight">→</div>
         </div>
     </div>
 </div>
@@ -97,6 +102,7 @@ container.innerHTML = `<div class="container">
 document.body.append(container);
 let lines = document.querySelectorAll(".lines");
 let shifts = document.querySelectorAll(".shift");
+let arrows = document.querySelectorAll(".arrows");
 for (let i = 0; i < lines.length; i++) {
   lines[i].setAttribute("keyname", lines[i].innerText);
   lines[i].setAttribute("lowerCaseName", lines[i].innerText.toLowerCase());
@@ -126,6 +132,18 @@ for (let i = 0; i < lines.length; i++) {
     case ";":
       lines[i].setAttribute("lowerCaseName", ":");
       break;
+      case 'arrowLeft':
+        input.value += '←'
+        break;
+    case 'arrowRight':
+        input.value += '→';
+        break;
+    case 'arrowDown':
+        input.value += '↑';
+        break;
+    case 'arrowUp':
+        input.value += '↓';
+        break;   
   }
 }
 let currentLang = "eng";
@@ -157,14 +175,16 @@ let spaceKey = document.querySelector(".space");
 let shiftLeft = document.querySelector(".shiftLeft");
 let shiftRight = document.querySelector(".shiftRight");
 let capsLock = document.querySelector(".capsLock");
-let toggle_circle = document.querySelector(".toggle_circle");
-let night_mode = document.querySelector(".night_mode");
 let body = document.querySelector("body");
 let text_input = document.querySelector(".text");
-let change_color = document.querySelector(".change_light_color");
-let colors_input = document.querySelector(".colors_input");
 let keyboard = document.querySelector(".keyboard");
 let wrapper = document.querySelector(".wrapper");
+let arrowUp = document.querySelector(".arrowUp");
+let arrowLeft = document.querySelector(".arrowLeft");
+let arrowRight = document.querySelector(".arrowRight");
+let arrowDown = document.querySelector(".arrowDown");
+
+
 window.addEventListener("keydown", function (e) {
   if (input !== document.activeElement) {
     if (textString.includes(String(e.key).toLowerCase())) {
@@ -199,6 +219,7 @@ window.addEventListener("keydown", function (e) {
     if (e.code == "CapsLock") {
       capsLock.classList.toggle("active");
     }
+
   }
 });
 

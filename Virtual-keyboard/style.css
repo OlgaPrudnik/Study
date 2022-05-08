@@ -19,14 +19,12 @@
   }
   
   .wrapper {
-    max-width: 1008px;
+    max-width: 1025px;
     width: 100%;
     background-color: #494646;
     overflow: hidden;
     position: relative;
-    overflow: hidden;
-    order: 2;
-   
+    order: 2; 
   }
   
   .values {
@@ -34,20 +32,19 @@
   }
   
   .lines {
-    width: 60px;
-    height: 60px;
+    width: 62px;
+    height: 62px;
     background-color: rgb(31, 29, 29);
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 4px;
     transition: 0.2s;
-    z-index: 5;
-    
+    z-index: 5;   
   }
   
   .backspace {
-    width: 120px;
+    width: 122px;
   }
   
   .tab {
@@ -59,76 +56,90 @@
   }
   
   .capsLock {
-    width: 128px;
+    width: 118px;
   }
   
   .enter {
-    width: 120px;
+    width: 128px;
   }
   
   .shift{
-    width: 124px;
+    width: 125px;
   }
   
   .space {
-    max-width: 600px;
+    max-width: 300px;
     width: 100%;
+  }
+  .ctrlLeft {
+      width: 65px;
+  }
+  .ctrlRight {
+    width: 105px;
+  }
+
+  .arrows {
+      max-width: 55px;
   }
   
   .text {
-    max-width: 1008px;
+    max-width: 1017px;
     width: 100%;
-    height: 90px;
+    height: 110px;
     margin-bottom: 30px;
     border: none;
     outline: none;
     font-size: 26px;
-    background-color: #f7f7f7;
+    background-color: #ffffff;
     padding-left: 10px;
     transition: 0.2s;
   }
   
   .lines.active {
-    background-color: #333;
+    background-color: rgb(2, 47, 116);
+    color: #fff;
+  }
+  .arrows.active{
+    background-color: rgb(2, 47, 116);
     color: #fff;
   }
   
   .lines.remove {
-    animation: lines_animation 0.5s forwards;
+    animation: lines_animation 0.5s ease-in-out;
   }
   
   @-webkit-keyframes lines_animation {
     0% {
-      background-color: #333;
-      color: #fff;
+      background-color: rgb(2, 47, 116);
+      color: rgb(197, 196, 196);
     }
     100% {
-      background-color: #fff;
-      color: #000;
+      background-color: rgb(2, 47, 116);
+      color: rgb(68, 66, 66);
     }
   }
   
   @keyframes lines_animation {
     0% {
-      background-color: #333;
-      color: #fff;
+      background-color: rgb(2, 47, 116);
+      color: rgb(206, 202, 202);
     }
     100% {
-      background-color: #fff;
-      color: #000;
+      background-color: rgb(2, 47, 116);
+      color: rgb(87, 86, 86);
     }
   }
   
   body.active {
-    background-color: #363636;
+    background-color: #2b2a2a;
   }
   
   .wrapper.active {
-    background-color: #585858;
+    background-color: #686767;
   }
   
   .lines.lines_night {
-    background-color: #3c3c3c;
+    background-color: #3d3a3a;
     color: #fff;
   }
   
