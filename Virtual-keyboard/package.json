@@ -1,0 +1,25 @@
+{
+  "name": "eslint.js",
+  "version": "1.0.0",
+  "description": "- https://olgaprudnik.github.io/rsschool-cv/cv - https://olgaprudnik.github.io/rsschool-cv/SHELTER/pages/main/index.html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlgaPrudnik/rsschool-cv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlgaPrudnik/rsschool-cv/issues"
+  },
+  "homepage": "https://github.com/OlgaPrudnik/rsschool-cv#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint": "^8.14.0",
+    "eslint-plugin-react": "^7.29.4"
+  }
+}
